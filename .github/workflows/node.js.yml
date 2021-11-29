@@ -28,5 +28,5 @@ jobs:
        - uses: akhileshns/heroku-deploy@v3.12.12
          with:
               heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-              heroku_app_name: "api-teste"
+              heroku_app_name: "ultimate-api-3227"
               heroku_email: "vinyy64@live.com"
