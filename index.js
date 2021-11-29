@@ -7,7 +7,7 @@ const app = express();
 //em uma funçao depois do cliente ter dado um valor
 
 app.get('/', (req,res)=>{
-    res.send('Hello Worl!');
+    res.send('Hello World!');
 });
 
 app.listen(port, ()=>{console.log('Our App Is Up And Running');});
