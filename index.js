@@ -3,8 +3,11 @@ const port = process.env.PORT||8000;
 const app = express();
 
 
+//enviar uma variavel que deu de resultado
+//em uma funçao depois do cliente ter dado um valor
+
 app.get('/', (req,res)=>{
-    res.send('Hello World!');
+    res.send('Hello Worl!');
 });
 
 app.listen(port, ()=>{console.log('Our App Is Up And Running');});
